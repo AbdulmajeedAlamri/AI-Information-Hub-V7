@@ -1,0 +1,19 @@
+AI Information Hub V9 Professional - Validation Report
+
+Automated validation completed successfully.
+
+- Python syntax/bytecode compilation: PASS
+- Pytest: 9 tests passed
+- Export subtests: 42 passed
+- Arabic PDF generation: covered by exporter tests
+- English PDF generation: covered by exporter tests
+- DOCX generation: covered by exporter tests
+- PNG generation: covered by exporter tests
+- TXT UTF-8 BOM export: PASS
+- JSON UTF-8 export: PASS
+- Database serialization tests: PASS
+- Text direction/sanitization tests: PASS
+- Real secrets included: NO
+
+Notes:
+- External live services (Google OIDC, Supabase, Wikipedia, Google News and Ollama) require the deployment environment and valid secrets, so they cannot be fully integration-tested offline.

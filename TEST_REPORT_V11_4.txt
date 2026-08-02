@@ -1,0 +1,12 @@
+AI Information Hub V11.4 - Analysis Presentation Fix
+
+Changes:
+- News summary is rendered as one continuous paragraph with no 1/2/3 numbering.
+- Summary content contract remains 5-8 complete sentences when AI analysis is available.
+- Key points prompt now requests 3-5 analytical takeaways rather than copied sentences.
+- Non-AI fallback labels grounded facts and explicitly avoids inventing unsupported analysis.
+- PDF/Word/TXT export treats the summary as a paragraph, not a bullet list.
+
+Validation:
+- Python compileall: PASS
+- pytest: 29 passed, 53 subtests passed
